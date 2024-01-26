@@ -1,6 +1,7 @@
 # &lt;clipboard-copy&gt; element
 
-Copy element text content or input values to the clipboard.
+
+Admin : http://localhost:8000/admin/login
 
 ## Installation
 
