@@ -22,10 +22,10 @@ return new class extends Migration
             $table->softDeletes();
         });
 
-        Category::create([
+        DB::table('categories')->insert([
             ['name' => 'Cloths','description' => '','is_active' => 1],
-            ['name' => 'Kids','description' => '','is_active' => 1,],
-            ['name' => 'Pants','description' => '','is_active' => 1,],
+            ['name' => 'Kids','description' => '','is_active' => 1],
+            ['name' => 'Pants','description' => '','is_active' => 1],
         ]);
 
     }

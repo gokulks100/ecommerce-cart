@@ -168,6 +168,12 @@
                     </div>
                 </div>
             @endforeach
+
+            <div>
+                @if($products->isEmpty())
+                        No products
+                @endif
+            </div>
             {{ $products->links() }}
 
         </div>
