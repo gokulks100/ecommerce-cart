@@ -1,6 +1,6 @@
-# &lt;clipboard-copy&gt; element
+# ECOM
 
-
+url : http://localhost:8000
 Admin : http://localhost:8000/admin/login
 
 ## Installation
